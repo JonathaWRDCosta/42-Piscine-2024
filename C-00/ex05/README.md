@@ -67,9 +67,4 @@ This will execute the `ft_print_comb` function and print all possible combinatio
 012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, ... (continues until all combinations are printed)
 ```
 
-This rewrite clarifies the following:
-
-* **Output order:** The digits appear in ascending order (e.g., 012, not 102).
-* **No repetition:** Each combination uses unique digits (e.g., 012, not 120).
-* **Separation:** Commas and spaces separate the combinations.
-* **Example output:** Provides a glimpse of what the program might print.
+This documentation provides a basic explanation of the code and how to run it. Remember to consider error handling and expand functionality based on your specific programming needs.
