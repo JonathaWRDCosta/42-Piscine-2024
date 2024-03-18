@@ -51,3 +51,5 @@ The code provides functions to handle integer output:
    ```
 
    - This will execute the `ft_putnbr` function, printing the value passed in `main` (e.g., if `main` has `ft_putnbr(42);`, it will print `42` to the console followed by a newline).
+
+This documentation provides a basic explanation of the code and how to run it. Remember to consider error handling and expand functionality based on your specific programming needs.
