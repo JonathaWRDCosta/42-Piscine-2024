@@ -57,3 +57,5 @@ The code provides two functions:
    ```
 
    - This will execute the `ft_print_comb2` function and print all possible combinations of two distinct digits from 0 to 9 in ascending order, separated by commas and spaces.
+
+This documentation provides a basic explanation of the code and how to run it. Remember to consider error handling and expand functionality based on your specific programming needs.
