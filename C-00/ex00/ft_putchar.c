@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jonatha <jonatha@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/22 04:54:15 by jonatha           #+#    #+#             */
-/*   Updated: 2024/02/22 05:06:04 by jonatha          ###   ########.fr       */
+/*   Created: 2024/03/17 23:14:59 by jonatha           #+#    #+#             */
+/*   Updated: 2024/03/17 23:35:40 by jonatha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void ft_putchar(char c)
 /*
 int main(void)
 {
-  ft_putchar('K');
-  return(0);
+  ft_putchar('A');
+  return (0);
 }
 */

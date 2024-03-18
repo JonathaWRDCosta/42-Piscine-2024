@@ -1,33 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_print_combn.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jonatha <jonatha@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/17 23:36:01 by jonatha           #+#    #+#             */
-/*   Updated: 2024/03/17 23:40:23 by jonatha          ###   ########.fr       */
+/*   Created: 2024/03/18 12:45:27 by jonatha           #+#    #+#             */
+/*   Updated: 2024/03/18 13:45:53 by jonatha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_print_alphabet(void)
+void ft_putchar(char c)
 {
-  int a;
-
-  a = 97;
-  while (a <= 122)
-  {
-    write(1, &a, 1);
-    a++;
-  }
+  write(1, &c, 1);
 }
 
-/*
+void ft_print_combn(int n)
+{
+  
+}
+
 int main(void)
 {
-  ft_print_alphabet();
+  ft_print_combn(2);
   return(0);
 }
-*/

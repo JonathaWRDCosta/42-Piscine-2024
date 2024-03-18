@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jonatha <jonatha@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/22 05:12:02 by jonatha           #+#    #+#             */
-/*   Updated: 2024/02/22 05:17:28 by jonatha          ###   ########.fr       */
+/*   Created: 2024/03/17 23:40:41 by jonatha           #+#    #+#             */
+/*   Updated: 2024/03/17 23:42:46 by jonatha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 
 void ft_print_reverse_alphabet(void)
 {
-  int i;
-  
-  i = 122;
-  while (i >= 97)
+  int a;
+
+  a = 122;
+  while (a >= 97)
   {
-    write(1, &i, 1);
-    i--;
+    write(1, &a, 1);
+    a--;
   }
 }
 

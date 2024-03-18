@@ -5,24 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jonatha <jonatha@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/22 05:17:48 by jonatha           #+#    #+#             */
-/*   Updated: 2024/02/22 05:20:11 by jonatha          ###   ########.fr       */
+/*   Created: 2024/03/17 23:43:00 by jonatha           #+#    #+#             */
+/*   Updated: 2024/03/18 00:03:56 by jonatha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
 
 void ft_print_numbers(void)
 {
-  int i;
+  int a;
 
-  i = 48;
-  while (i <= 57)
+  a = 48;
+  while (a <= 57)
   {
-    write(1, &i, 1);
-    i++;
-  } 
+    write(1, &a, 1);
+    a++;
+  }
 }
+
 
 /*
 int main(void)

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jonatha <jonatha@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/22 07:20:39 by jonatha           #+#    #+#             */
-/*   Updated: 2024/02/22 10:28:40 by jonatha          ###   ########.fr       */
+/*   Created: 2024/03/18 11:24:58 by jonatha           #+#    #+#             */
+/*   Updated: 2024/03/18 11:55:44 by jonatha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void ft_print_comb2(void)
   int a;
   int b;
 
-  a = 00;
+  a = 0;
   while (a <= 98)
   {
     b = a + 1;
@@ -35,16 +35,13 @@ void ft_print_comb2(void)
       ft_putchar(b % 10 + '0');
       if (a != 98 || b != 99)
       {
-      ft_putchar(',');
-      ft_putchar(' ');
+        ft_putchar(',');
+        ft_putchar(' ');
       }
-
       b++;
     }
     a++;
   }
-  
-
   
 }
 
