@@ -143,10 +143,6 @@ After all passes, the array becomes `{1, 2, 3, 4, 5, 6}`, with the largest eleme
 
 **Key Points:**
 
-You're absolutely right, there is some redundancy in the key points you listed. Here's a revised version that combines the essential points without repetition:
-
-**Key Points:**
-
 - **Selection sort** iteratively finds the minimum element in the unsorted part of the array and swaps it with the first element in that unsorted part.
 - With each outer loop iteration, one more element is guaranteed to be in its correct, sorted position at the end of the array.
 - The outer loop controls the number of passes needed to sort the entire array.
