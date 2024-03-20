@@ -141,6 +141,7 @@ Consider the array `{6, 5, 4, 3, 2, 1}`:
 
 After all passes, the array becomes `{1, 2, 3, 4, 5, 6}`, with the largest element (`6`) guaranteed to be at the end.
 
+
 **Key Points:**
 
 - **Selection sort** iteratively finds the minimum element in the unsorted part of the array and swaps it with the first element in that unsorted part.
