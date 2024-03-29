@@ -6,13 +6,12 @@
 /*   By: jonatha <jonatha@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 03:16:11 by jonatha           #+#    #+#             */
-/*   Updated: 2024/03/28 21:22:42 by jonatha          ###   ########.fr       */
+/*   Updated: 2024/03/29 05:17:20 by jonatha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdio.h>
-#include <limits.h>
 
 void ft_putchar(char c)
 {
