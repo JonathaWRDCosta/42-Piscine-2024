@@ -1,33 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_rev_params.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jonatha <jonatha@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/19 01:10:29 by jonatha           #+#    #+#             */
-/*   Updated: 2024/04/16 12:18:40 by jonatha          ###   ########.fr       */
+/*   Created: 2024/03/30 05:12:03 by jonatha           #+#    #+#             */
+/*   Updated: 2024/03/31 06:07:09 by jonatha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include <unistd.h>
 
-int ft_strlen(char *str)
+void ft_putchar(char c)
+{
+  write(1, &c, 1);
+}
+
+int main(int argc, char *argv[])
 {
   int i;
+  int j;
 
-  i = 0;
-  while (str[i] != '\0')
+  i = argc - 1;
+  while (i > 0)
   {
-    i++;
+    j = 0;
+    while (argv[i][j] != '\0')
+    {
+      ft_putchar(argv[i][j]);
+      j++;
+    }
+    i--;
+    ft_putchar('\n');
   }
-  return (i);
+  return(0);
 }
-
-/*
-int main(void)
-{
-  char str[] = "ABC";
-  printf("%d", ft_strlen(str));
-}
-*/
